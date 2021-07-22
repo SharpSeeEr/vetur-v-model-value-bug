@@ -5,6 +5,7 @@
       :key="color"
       v-model="selected"
       :value="color"
+      :label="color"
     />
     {{ fo }}
   </div>
